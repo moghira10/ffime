@@ -1,35 +1,39 @@
 /*
-	Dimension by HTML5 UP
+	Big Picture by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* BG */
+/* Loader */
 
-	#bg:before {
-		background: rgba(19, 21, 25, 0.5);
+	body:before, body:after {
+		display: none !important;
 	}
 
-/* Header */
+/* Gallery */
 
-	#header .logo {
-		margin: 0 auto;
+	.gallery:after {
+		content: '';
+		display: block;
+		clear: both;
 	}
 
-	#header .content {
-		display: inline-block;
+	.gallery article {
+		float: left;
 	}
-
-	#header nav ul {
-		display: inline-block;
-	}
-
-		#header nav ul li {
-			display: inline-block;
-		}
 
 /* Main */
 
-	#main article {
+	.main.fullscreen {
+		min-height: 0;
+	}
+
+	.main.style1 > .content {
 		margin: 0 auto;
+	}
+
+/* Poptrox */
+
+	.poptrox-popup .loader {
+		display: none !important;
 	}
