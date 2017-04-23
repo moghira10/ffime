@@ -1,4 +1,4 @@
-446@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("font-awesome.min.css");
 
 /*
@@ -1686,9 +1686,9 @@
 		#header h1 {
 			position: absolute;
 			left: 1em;
-			top: 0;
+			top: -20px;
 			height: 3em;
-			line-height: 3em;
+			/*line-height: 3em;*/
 			cursor: default;
 		}
 
